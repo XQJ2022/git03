@@ -1,0 +1,27 @@
+--cpu Cortex-M0
+"..\obj\objects\main.o"
+"..\obj\objects\key.o"
+"..\obj\objects\delay.o"
+"..\obj\objects\lcd12864.o"
+"..\obj\objects\adc.o"
+"..\obj\objects\clk.o"
+"..\obj\objects\cmp.o"
+"..\obj\objects\devinit.o"
+"..\obj\objects\dma.o"
+"..\obj\objects\eru.o"
+"..\obj\objects\etimer.o"
+"..\obj\objects\gpio.o"
+"..\obj\objects\iap.o"
+"..\obj\objects\irq.o"
+"..\obj\objects\isr.o"
+"..\obj\objects\opa.o"
+"..\obj\objects\pwm.o"
+"..\obj\objects\uart0.o"
+"..\obj\objects\uart1.o"
+"..\obj\objects\wdt.o"
+"..\obj\objects\startup_sc32f5832.o"
+"..\obj\objects\system_sc32f5832.o"
+--strict --scatter "..\OBJ\Objects\LCD12864.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\OBJ\Listings\LCD12864.map" -o ..\OBJ\Objects\LCD12864.axf

@@ -1,0 +1,327 @@
+Dependencies for Project '5832 EVB firmware project', Target 'Target 1': (DO NOT MODIFY !)
+F (.\SRC\ADC.c)(0x5A60463B)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\headers -I "D:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include" -I .\USER-I.\RTE\_Target_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IE:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="524" -D_RTE_-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_CM0.h)(0x5898498A)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (.\headers\DevInit.h)(0x5B7A3AF3)
+I (.\headers\UART.h)(0x5996CED2)
+I (.\headers\ADC.h)(0x5A0EA0A6)
+I (.\headers\CLK.h)(0x59965654)
+I (.\headers\GPIO.h)(0x5C85FF91)
+I (.\headers\PWM.h)(0x5A755326)
+I (.\headers\ETIMER.h)(0x5A0E963E)
+I (.\headers\CMP.h)(0x5A0E7F4B)
+I (.\headers\OPA.h)(0x5A0E7429)
+I (.\headers\DMA.h)(0x5A5C631A)
+I (.\headers\Coproc.h)(0x5A224044)
+I (.\headers\IAP.h)(0x5A224282)
+I (.\headers\Datatype.h)(0x5A604CAD)
+F (.\SRC\CLK.c)(0x5B960A9F)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\headers -I "D:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include" -I .\USER-I.\RTE\_Target_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IE:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="524" -D_RTE_-o .\objects\clk.o --omf_browse .\objects\clk.crf --depend .\objects\clk.d)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_CM0.h)(0x5898498A)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (.\headers\DevInit.h)(0x5B7A3AF3)
+I (.\headers\UART.h)(0x5996CED2)
+I (.\headers\ADC.h)(0x5A0EA0A6)
+I (.\headers\CLK.h)(0x59965654)
+I (.\headers\GPIO.h)(0x5C85FF91)
+I (.\headers\PWM.h)(0x5A755326)
+I (.\headers\ETIMER.h)(0x5A0E963E)
+I (.\headers\CMP.h)(0x5A0E7F4B)
+I (.\headers\OPA.h)(0x5A0E7429)
+I (.\headers\DMA.h)(0x5A5C631A)
+I (.\headers\Coproc.h)(0x5A224044)
+I (.\headers\IAP.h)(0x5A224282)
+I (.\headers\Datatype.h)(0x5A604CAD)
+F (.\SRC\ETIMER.c)(0x5C7E4CA3)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\headers -I "D:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include" -I .\USER-I.\RTE\_Target_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IE:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="524" -D_RTE_-o .\objects\etimer.o --omf_browse .\objects\etimer.crf --depend .\objects\etimer.d)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_CM0.h)(0x5898498A)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (.\headers\DevInit.h)(0x5B7A3AF3)
+I (.\headers\UART.h)(0x5996CED2)
+I (.\headers\ADC.h)(0x5A0EA0A6)
+I (.\headers\CLK.h)(0x59965654)
+I (.\headers\GPIO.h)(0x5C85FF91)
+I (.\headers\PWM.h)(0x5A755326)
+I (.\headers\ETIMER.h)(0x5A0E963E)
+I (.\headers\CMP.h)(0x5A0E7F4B)
+I (.\headers\OPA.h)(0x5A0E7429)
+I (.\headers\DMA.h)(0x5A5C631A)
+I (.\headers\Coproc.h)(0x5A224044)
+I (.\headers\IAP.h)(0x5A224282)
+I (.\headers\Datatype.h)(0x5A604CAD)
+F (.\SRC\main.c)(0x5CF0DAA8)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\headers -I "D:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include" -I .\USER-I.\RTE\_Target_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IE:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="524" -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_CM0.h)(0x5898498A)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (.\headers\DevInit.h)(0x5B7A3AF3)
+I (.\headers\UART.h)(0x5996CED2)
+I (.\headers\ADC.h)(0x5A0EA0A6)
+I (.\headers\CLK.h)(0x59965654)
+I (.\headers\GPIO.h)(0x5C85FF91)
+I (.\headers\PWM.h)(0x5A755326)
+I (.\headers\ETIMER.h)(0x5A0E963E)
+I (.\headers\CMP.h)(0x5A0E7F4B)
+I (.\headers\OPA.h)(0x5A0E7429)
+I (.\headers\DMA.h)(0x5A5C631A)
+I (.\headers\Coproc.h)(0x5A224044)
+I (.\headers\IAP.h)(0x5A224282)
+I (.\headers\Datatype.h)(0x5A604CAD)
+I (.\USER\keyboard4x4.h)(0x5C834357)
+F (.\SRC\PWM.c)(0x5A604935)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\headers -I "D:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include" -I .\USER-I.\RTE\_Target_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IE:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="524" -D_RTE_-o .\objects\pwm.o --omf_browse .\objects\pwm.crf --depend .\objects\pwm.d)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_CM0.h)(0x5898498A)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (.\headers\DevInit.h)(0x5B7A3AF3)
+I (.\headers\UART.h)(0x5996CED2)
+I (.\headers\ADC.h)(0x5A0EA0A6)
+I (.\headers\CLK.h)(0x59965654)
+I (.\headers\GPIO.h)(0x5C85FF91)
+I (.\headers\PWM.h)(0x5A755326)
+I (.\headers\ETIMER.h)(0x5A0E963E)
+I (.\headers\CMP.h)(0x5A0E7F4B)
+I (.\headers\OPA.h)(0x5A0E7429)
+I (.\headers\DMA.h)(0x5A5C631A)
+I (.\headers\Coproc.h)(0x5A224044)
+I (.\headers\IAP.h)(0x5A224282)
+I (.\headers\Datatype.h)(0x5A604CAD)
+F (.\SRC\GPIO.c)(0x5C82700C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\headers -I "D:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include" -I .\USER-I.\RTE\_Target_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IE:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="524" -D_RTE_-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_CM0.h)(0x5898498A)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (.\headers\DevInit.h)(0x5B7A3AF3)
+I (.\headers\UART.h)(0x5996CED2)
+I (.\headers\ADC.h)(0x5A0EA0A6)
+I (.\headers\CLK.h)(0x59965654)
+I (.\headers\GPIO.h)(0x5C85FF91)
+I (.\headers\PWM.h)(0x5A755326)
+I (.\headers\ETIMER.h)(0x5A0E963E)
+I (.\headers\CMP.h)(0x5A0E7F4B)
+I (.\headers\OPA.h)(0x5A0E7429)
+I (.\headers\DMA.h)(0x5A5C631A)
+I (.\headers\Coproc.h)(0x5A224044)
+I (.\headers\IAP.h)(0x5A224282)
+I (.\headers\Datatype.h)(0x5A604CAD)
+F (.\SRC\IRQ.c)(0x5C835309)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\headers -I "D:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include" -I .\USER-I.\RTE\_Target_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IE:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="524" -D_RTE_-o .\objects\irq.o --omf_browse .\objects\irq.crf --depend .\objects\irq.d)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_CM0.h)(0x5898498A)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+F (.\SRC\ISR.c)(0x5C7E5BEA)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\headers -I "D:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include" -I .\USER-I.\RTE\_Target_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IE:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="524" -D_RTE_-o .\objects\isr.o --omf_browse .\objects\isr.crf --depend .\objects\isr.d)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_CM0.h)(0x5898498A)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (.\headers\DevInit.h)(0x5B7A3AF3)
+I (.\headers\UART.h)(0x5996CED2)
+I (.\headers\ADC.h)(0x5A0EA0A6)
+I (.\headers\CLK.h)(0x59965654)
+I (.\headers\GPIO.h)(0x5C85FF91)
+I (.\headers\PWM.h)(0x5A755326)
+I (.\headers\ETIMER.h)(0x5A0E963E)
+I (.\headers\CMP.h)(0x5A0E7F4B)
+I (.\headers\OPA.h)(0x5A0E7429)
+I (.\headers\DMA.h)(0x5A5C631A)
+I (.\headers\Coproc.h)(0x5A224044)
+I (.\headers\IAP.h)(0x5A224282)
+I (.\headers\Datatype.h)(0x5A604CAD)
+F (.\SRC\Uart0.c)(0x5C7E5D1F)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\headers -I "D:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include" -I .\USER-I.\RTE\_Target_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IE:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="524" -D_RTE_-o .\objects\uart0.o --omf_browse .\objects\uart0.crf --depend .\objects\uart0.d)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_CM0.h)(0x5898498A)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (.\headers\DevInit.h)(0x5B7A3AF3)
+I (.\headers\UART.h)(0x5996CED2)
+I (.\headers\ADC.h)(0x5A0EA0A6)
+I (.\headers\CLK.h)(0x59965654)
+I (.\headers\GPIO.h)(0x5C85FF91)
+I (.\headers\PWM.h)(0x5A755326)
+I (.\headers\ETIMER.h)(0x5A0E963E)
+I (.\headers\CMP.h)(0x5A0E7F4B)
+I (.\headers\OPA.h)(0x5A0E7429)
+I (.\headers\DMA.h)(0x5A5C631A)
+I (.\headers\Coproc.h)(0x5A224044)
+I (.\headers\IAP.h)(0x5A224282)
+I (.\headers\Datatype.h)(0x5A604CAD)
+F (.\SRC\Uart1.c)(0x5A0ED26A)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\headers -I "D:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include" -I .\USER-I.\RTE\_Target_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IE:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="524" -D_RTE_-o .\objects\uart1.o --omf_browse .\objects\uart1.crf --depend .\objects\uart1.d)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_CM0.h)(0x5898498A)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (.\headers\DevInit.h)(0x5B7A3AF3)
+I (.\headers\UART.h)(0x5996CED2)
+I (.\headers\ADC.h)(0x5A0EA0A6)
+I (.\headers\CLK.h)(0x59965654)
+I (.\headers\GPIO.h)(0x5C85FF91)
+I (.\headers\PWM.h)(0x5A755326)
+I (.\headers\ETIMER.h)(0x5A0E963E)
+I (.\headers\CMP.h)(0x5A0E7F4B)
+I (.\headers\OPA.h)(0x5A0E7429)
+I (.\headers\DMA.h)(0x5A5C631A)
+I (.\headers\Coproc.h)(0x5A224044)
+I (.\headers\IAP.h)(0x5A224282)
+I (.\headers\Datatype.h)(0x5A604CAD)
+F (.\SRC\DevInit.c)(0x5C7E4A2C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\headers -I "D:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include" -I .\USER-I.\RTE\_Target_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IE:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="524" -D_RTE_-o .\objects\devinit.o --omf_browse .\objects\devinit.crf --depend .\objects\devinit.d)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_CM0.h)(0x5898498A)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (.\headers\DevInit.h)(0x5B7A3AF3)
+I (.\headers\UART.h)(0x5996CED2)
+I (.\headers\ADC.h)(0x5A0EA0A6)
+I (.\headers\CLK.h)(0x59965654)
+I (.\headers\GPIO.h)(0x5C85FF91)
+I (.\headers\PWM.h)(0x5A755326)
+I (.\headers\ETIMER.h)(0x5A0E963E)
+I (.\headers\CMP.h)(0x5A0E7F4B)
+I (.\headers\OPA.h)(0x5A0E7429)
+I (.\headers\DMA.h)(0x5A5C631A)
+I (.\headers\Coproc.h)(0x5A224044)
+I (.\headers\IAP.h)(0x5A224282)
+I (.\headers\Datatype.h)(0x5A604CAD)
+F (.\SRC\CMP.c)(0x5A604B1B)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\headers -I "D:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include" -I .\USER-I.\RTE\_Target_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IE:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="524" -D_RTE_-o .\objects\cmp.o --omf_browse .\objects\cmp.crf --depend .\objects\cmp.d)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_CM0.h)(0x5898498A)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (.\headers\DevInit.h)(0x5B7A3AF3)
+I (.\headers\UART.h)(0x5996CED2)
+I (.\headers\ADC.h)(0x5A0EA0A6)
+I (.\headers\CLK.h)(0x59965654)
+I (.\headers\GPIO.h)(0x5C85FF91)
+I (.\headers\PWM.h)(0x5A755326)
+I (.\headers\ETIMER.h)(0x5A0E963E)
+I (.\headers\CMP.h)(0x5A0E7F4B)
+I (.\headers\OPA.h)(0x5A0E7429)
+I (.\headers\DMA.h)(0x5A5C631A)
+I (.\headers\Coproc.h)(0x5A224044)
+I (.\headers\IAP.h)(0x5A224282)
+I (.\headers\Datatype.h)(0x5A604CAD)
+F (.\SRC\OPA.c)(0x5A604BA5)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\headers -I "D:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include" -I .\USER-I.\RTE\_Target_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IE:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="524" -D_RTE_-o .\objects\opa.o --omf_browse .\objects\opa.crf --depend .\objects\opa.d)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_CM0.h)(0x5898498A)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (.\headers\DevInit.h)(0x5B7A3AF3)
+I (.\headers\UART.h)(0x5996CED2)
+I (.\headers\ADC.h)(0x5A0EA0A6)
+I (.\headers\CLK.h)(0x59965654)
+I (.\headers\GPIO.h)(0x5C85FF91)
+I (.\headers\PWM.h)(0x5A755326)
+I (.\headers\ETIMER.h)(0x5A0E963E)
+I (.\headers\CMP.h)(0x5A0E7F4B)
+I (.\headers\OPA.h)(0x5A0E7429)
+I (.\headers\DMA.h)(0x5A5C631A)
+I (.\headers\Coproc.h)(0x5A224044)
+I (.\headers\IAP.h)(0x5A224282)
+I (.\headers\Datatype.h)(0x5A604CAD)
+F (.\SRC\DMA.c)(0x5A604833)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\headers -I "D:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include" -I .\USER-I.\RTE\_Target_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IE:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="524" -D_RTE_-o .\objects\dma.o --omf_browse .\objects\dma.crf --depend .\objects\dma.d)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_CM0.h)(0x5898498A)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (.\headers\DevInit.h)(0x5B7A3AF3)
+I (.\headers\UART.h)(0x5996CED2)
+I (.\headers\ADC.h)(0x5A0EA0A6)
+I (.\headers\CLK.h)(0x59965654)
+I (.\headers\GPIO.h)(0x5C85FF91)
+I (.\headers\PWM.h)(0x5A755326)
+I (.\headers\ETIMER.h)(0x5A0E963E)
+I (.\headers\CMP.h)(0x5A0E7F4B)
+I (.\headers\OPA.h)(0x5A0E7429)
+I (.\headers\DMA.h)(0x5A5C631A)
+I (.\headers\Coproc.h)(0x5A224044)
+I (.\headers\IAP.h)(0x5A224282)
+I (.\headers\Datatype.h)(0x5A604CAD)
+F (.\SRC\IAP.c)(0x5B8D2573)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\headers -I "D:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include" -I .\USER-I.\RTE\_Target_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IE:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="524" -D_RTE_-o .\objects\iap.o --omf_browse .\objects\iap.crf --depend .\objects\iap.d)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_CM0.h)(0x5898498A)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\headers\IAP.h)(0x5A224282)
+F (.\SRC\WDT.c)(0x5C7DB91B)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\headers -I "D:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include" -I .\USER-I.\RTE\_Target_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IE:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="524" -D_RTE_-o .\objects\wdt.o --omf_browse .\objects\wdt.crf --depend .\objects\wdt.d)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_CM0.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+F (.\headers\ADC.h)(0x5A0EA0A6)()
+F (.\headers\CLK.h)(0x59965654)()
+F (.\headers\PWM.h)(0x5A755326)()
+F (.\headers\GPIO.h)(0x5C85FF91)()
+F (.\headers\ETIMER.h)(0x5A0E963E)()
+F (.\headers\UART.h)(0x5996CED2)()
+F (.\headers\DevInit.h)(0x5B7A3AF3)()
+F (.\headers\CMP.h)(0x5A0E7F4B)()
+F (.\headers\OPA.h)(0x5A0E7429)()
+F (.\headers\DMA.h)(0x5A5C631A)()
+F (.\headers\Coproc.h)(0x5A224044)()
+F (.\headers\IAP.h)(0x5A224282)()
+F (.\headers\Datatype.h)(0x5A604CAD)()
+F (.\USER\keyboard4x4.c)(0x5CE684FD)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\headers -I "D:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include" -I .\USER-I.\RTE\_Target_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IE:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="524" -D_RTE_-o .\objects\keyboard4x4.o --omf_browse .\objects\keyboard4x4.crf --depend .\objects\keyboard4x4.d)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_CM0.h)(0x5898498A)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (.\headers\DevInit.h)(0x5B7A3AF3)
+I (.\headers\UART.h)(0x5996CED2)
+I (.\headers\ADC.h)(0x5A0EA0A6)
+I (.\headers\CLK.h)(0x59965654)
+I (.\headers\GPIO.h)(0x5C85FF91)
+I (.\headers\PWM.h)(0x5A755326)
+I (.\headers\ETIMER.h)(0x5A0E963E)
+I (.\headers\CMP.h)(0x5A0E7F4B)
+I (.\headers\OPA.h)(0x5A0E7429)
+I (.\headers\DMA.h)(0x5A5C631A)
+I (.\headers\Coproc.h)(0x5A224044)
+I (.\headers\IAP.h)(0x5A224282)
+I (.\headers\Datatype.h)(0x5A604CAD)
+I (USER\keyboard4x4.h)(0x5C834357)
+F (RTE\Device\SC32F5832\startup_SC32F5832.s)(0x5C0629AE)(--cpu Cortex-M0 -g --apcs=interwork -I.\RTE\_Target_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IE:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1"--list .\listings\startup_sc32f5832.lst --xref -o .\objects\startup_sc32f5832.o --depend .\objects\startup_sc32f5832.d)
+F (RTE\Device\SC32F5832\system_SC32F5832.c)(0x5996DD70)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\headers -I "D:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include" -I .\USER-I.\RTE\_Target_1-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IE:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="524" -D_RTE_-o .\objects\system_sc32f5832.o --omf_browse .\objects\system_sc32f5832.crf --depend .\objects\system_sc32f5832.d)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_CM0.h)(0x5898498A)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898498A)
+I (E:\Keil_v5\ARM\PACK\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)

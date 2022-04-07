@@ -1,0 +1,392 @@
+Dependencies for Project 'LCD12864', Target 'LCD12864': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\main.c)(0x611F25E0)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\FWLib\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD12864 -I ..\HARDWARE\ST_delay-I.\RTE\_LCD12864-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_-o ..\obj\objects\main.o --omf_browse ..\obj\objects\main.crf --depend ..\obj\objects\main.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (..\FWLib\inc\DevInit.h)(0x60F14BCB)
+I (..\FWLib\inc\UART.h)(0x5C7DDC18)
+I (..\FWLib\inc\ADC.h)(0x5C7DDC1F)
+I (..\FWLib\inc\GPIO.h)(0x610A34B4)
+I (..\FWLib\inc\PWM.h)(0x5C7DDC20)
+I (..\FWLib\inc\ETIMER.h)(0x5C7DDC1D)
+I (..\FWLib\inc\CMP.h)(0x5C7DDC1F)
+I (..\FWLib\inc\OPA.h)(0x5C7DDC18)
+I (..\FWLib\inc\DMA.h)(0x5C7DDC1D)
+I (..\FWLib\inc\Coproc.h)(0x5C7DDC1F)
+I (..\FWLib\inc\IAP.h)(0x5C7DDC1A)
+I (..\FWLib\inc\Datatype.h)(0x5C7DDC1D)
+I (..\HARDWARE\ST_delay\delay.h)(0x60F15215)
+I (..\HARDWARE\KEY\KEY.h)(0x60F666D1)
+I (..\HARDWARE\LCD12864\LCD12864.h)(0x610A6030)
+F (..\HARDWARE\KEY\KEY.c)(0x610B32F7)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\FWLib\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD12864 -I ..\HARDWARE\ST_delay-I.\RTE\_LCD12864-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_-o ..\obj\objects\key.o --omf_browse ..\obj\objects\key.crf --depend ..\obj\objects\key.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (..\FWLib\inc\DevInit.h)(0x60F14BCB)
+I (..\FWLib\inc\UART.h)(0x5C7DDC18)
+I (..\FWLib\inc\ADC.h)(0x5C7DDC1F)
+I (..\FWLib\inc\GPIO.h)(0x610A34B4)
+I (..\FWLib\inc\PWM.h)(0x5C7DDC20)
+I (..\FWLib\inc\ETIMER.h)(0x5C7DDC1D)
+I (..\FWLib\inc\CMP.h)(0x5C7DDC1F)
+I (..\FWLib\inc\OPA.h)(0x5C7DDC18)
+I (..\FWLib\inc\DMA.h)(0x5C7DDC1D)
+I (..\FWLib\inc\Coproc.h)(0x5C7DDC1F)
+I (..\FWLib\inc\IAP.h)(0x5C7DDC1A)
+I (..\FWLib\inc\Datatype.h)(0x5C7DDC1D)
+I (..\HARDWARE\KEY\KEY.h)(0x60F666D1)
+I (..\HARDWARE\ST_delay\delay.h)(0x60F15215)
+I (..\HARDWARE\LCD12864\LCD12864.h)(0x610A6030)
+F (..\HARDWARE\ST_delay\delay.c)(0x60F14EC1)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\FWLib\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD12864 -I ..\HARDWARE\ST_delay-I.\RTE\_LCD12864-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_-o ..\obj\objects\delay.o --omf_browse ..\obj\objects\delay.crf --depend ..\obj\objects\delay.d)
+I (..\FWLib\inc\DevInit.h)(0x60F14BCB)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (..\FWLib\inc\UART.h)(0x5C7DDC18)
+I (..\FWLib\inc\ADC.h)(0x5C7DDC1F)
+I (..\FWLib\inc\GPIO.h)(0x610A34B4)
+I (..\FWLib\inc\PWM.h)(0x5C7DDC20)
+I (..\FWLib\inc\ETIMER.h)(0x5C7DDC1D)
+I (..\FWLib\inc\CMP.h)(0x5C7DDC1F)
+I (..\FWLib\inc\OPA.h)(0x5C7DDC18)
+I (..\FWLib\inc\DMA.h)(0x5C7DDC1D)
+I (..\FWLib\inc\Coproc.h)(0x5C7DDC1F)
+I (..\FWLib\inc\IAP.h)(0x5C7DDC1A)
+I (..\FWLib\inc\Datatype.h)(0x5C7DDC1D)
+I (..\HARDWARE\ST_delay\delay.h)(0x60F15215)
+I (..\FWLib\inc\CLK.h)(0x60F147A4)
+F (..\HARDWARE\LCD12864\LCD12864.c)(0x610B3AD8)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\FWLib\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD12864 -I ..\HARDWARE\ST_delay-I.\RTE\_LCD12864-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_-o ..\obj\objects\lcd12864.o --omf_browse ..\obj\objects\lcd12864.crf --depend ..\obj\objects\lcd12864.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (..\FWLib\inc\DevInit.h)(0x60F14BCB)
+I (..\FWLib\inc\UART.h)(0x5C7DDC18)
+I (..\FWLib\inc\ADC.h)(0x5C7DDC1F)
+I (..\FWLib\inc\GPIO.h)(0x610A34B4)
+I (..\FWLib\inc\PWM.h)(0x5C7DDC20)
+I (..\FWLib\inc\ETIMER.h)(0x5C7DDC1D)
+I (..\FWLib\inc\CMP.h)(0x5C7DDC1F)
+I (..\FWLib\inc\OPA.h)(0x5C7DDC18)
+I (..\FWLib\inc\DMA.h)(0x5C7DDC1D)
+I (..\FWLib\inc\Coproc.h)(0x5C7DDC1F)
+I (..\FWLib\inc\IAP.h)(0x5C7DDC1A)
+I (..\FWLib\inc\Datatype.h)(0x5C7DDC1D)
+I (..\HARDWARE\LCD12864\LCD12864.h)(0x610A6030)
+I (..\HARDWARE\ST_delay\delay.h)(0x60F15215)
+F (..\FWLib\src\ADC.c)(0x5C7DDAA7)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\FWLib\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD12864 -I ..\HARDWARE\ST_delay-I.\RTE\_LCD12864-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_-o ..\obj\objects\adc.o --omf_browse ..\obj\objects\adc.crf --depend ..\obj\objects\adc.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (..\FWLib\inc\DevInit.h)(0x60F14BCB)
+I (..\FWLib\inc\UART.h)(0x5C7DDC18)
+I (..\FWLib\inc\ADC.h)(0x5C7DDC1F)
+I (..\FWLib\inc\GPIO.h)(0x610A34B4)
+I (..\FWLib\inc\PWM.h)(0x5C7DDC20)
+I (..\FWLib\inc\ETIMER.h)(0x5C7DDC1D)
+I (..\FWLib\inc\CMP.h)(0x5C7DDC1F)
+I (..\FWLib\inc\OPA.h)(0x5C7DDC18)
+I (..\FWLib\inc\DMA.h)(0x5C7DDC1D)
+I (..\FWLib\inc\Coproc.h)(0x5C7DDC1F)
+I (..\FWLib\inc\IAP.h)(0x5C7DDC1A)
+I (..\FWLib\inc\Datatype.h)(0x5C7DDC1D)
+F (..\FWLib\src\CLK.c)(0x60F154D0)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\FWLib\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD12864 -I ..\HARDWARE\ST_delay-I.\RTE\_LCD12864-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_-o ..\obj\objects\clk.o --omf_browse ..\obj\objects\clk.crf --depend ..\obj\objects\clk.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (..\FWLib\inc\DevInit.h)(0x60F14BCB)
+I (..\FWLib\inc\UART.h)(0x5C7DDC18)
+I (..\FWLib\inc\ADC.h)(0x5C7DDC1F)
+I (..\FWLib\inc\GPIO.h)(0x610A34B4)
+I (..\FWLib\inc\PWM.h)(0x5C7DDC20)
+I (..\FWLib\inc\ETIMER.h)(0x5C7DDC1D)
+I (..\FWLib\inc\CMP.h)(0x5C7DDC1F)
+I (..\FWLib\inc\OPA.h)(0x5C7DDC18)
+I (..\FWLib\inc\DMA.h)(0x5C7DDC1D)
+I (..\FWLib\inc\Coproc.h)(0x5C7DDC1F)
+I (..\FWLib\inc\IAP.h)(0x5C7DDC1A)
+I (..\FWLib\inc\Datatype.h)(0x5C7DDC1D)
+I (..\FWLib\inc\CLK.h)(0x60F147A4)
+F (..\FWLib\src\CMP.c)(0x5C7DDAA5)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\FWLib\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD12864 -I ..\HARDWARE\ST_delay-I.\RTE\_LCD12864-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_-o ..\obj\objects\cmp.o --omf_browse ..\obj\objects\cmp.crf --depend ..\obj\objects\cmp.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (..\FWLib\inc\DevInit.h)(0x60F14BCB)
+I (..\FWLib\inc\UART.h)(0x5C7DDC18)
+I (..\FWLib\inc\ADC.h)(0x5C7DDC1F)
+I (..\FWLib\inc\GPIO.h)(0x610A34B4)
+I (..\FWLib\inc\PWM.h)(0x5C7DDC20)
+I (..\FWLib\inc\ETIMER.h)(0x5C7DDC1D)
+I (..\FWLib\inc\CMP.h)(0x5C7DDC1F)
+I (..\FWLib\inc\OPA.h)(0x5C7DDC18)
+I (..\FWLib\inc\DMA.h)(0x5C7DDC1D)
+I (..\FWLib\inc\Coproc.h)(0x5C7DDC1F)
+I (..\FWLib\inc\IAP.h)(0x5C7DDC1A)
+I (..\FWLib\inc\Datatype.h)(0x5C7DDC1D)
+F (..\FWLib\src\DevInit.c)(0x610A5E4C)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\FWLib\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD12864 -I ..\HARDWARE\ST_delay-I.\RTE\_LCD12864-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_-o ..\obj\objects\devinit.o --omf_browse ..\obj\objects\devinit.crf --depend ..\obj\objects\devinit.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (..\FWLib\inc\DevInit.h)(0x60F14BCB)
+I (..\FWLib\inc\UART.h)(0x5C7DDC18)
+I (..\FWLib\inc\ADC.h)(0x5C7DDC1F)
+I (..\FWLib\inc\GPIO.h)(0x610A34B4)
+I (..\FWLib\inc\PWM.h)(0x5C7DDC20)
+I (..\FWLib\inc\ETIMER.h)(0x5C7DDC1D)
+I (..\FWLib\inc\CMP.h)(0x5C7DDC1F)
+I (..\FWLib\inc\OPA.h)(0x5C7DDC18)
+I (..\FWLib\inc\DMA.h)(0x5C7DDC1D)
+I (..\FWLib\inc\Coproc.h)(0x5C7DDC1F)
+I (..\FWLib\inc\IAP.h)(0x5C7DDC1A)
+I (..\FWLib\inc\Datatype.h)(0x5C7DDC1D)
+I (..\HARDWARE\ST_delay\delay.h)(0x60F15215)
+I (..\FWLib\inc\CLK.h)(0x60F147A4)
+I (..\HARDWARE\KEY\KEY.h)(0x60F666D1)
+I (..\HARDWARE\LCD12864\LCD12864.h)(0x610A6030)
+F (..\FWLib\src\DMA.c)(0x5C7DDAA2)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\FWLib\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD12864 -I ..\HARDWARE\ST_delay-I.\RTE\_LCD12864-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_-o ..\obj\objects\dma.o --omf_browse ..\obj\objects\dma.crf --depend ..\obj\objects\dma.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (..\FWLib\inc\DevInit.h)(0x60F14BCB)
+I (..\FWLib\inc\UART.h)(0x5C7DDC18)
+I (..\FWLib\inc\ADC.h)(0x5C7DDC1F)
+I (..\FWLib\inc\GPIO.h)(0x610A34B4)
+I (..\FWLib\inc\PWM.h)(0x5C7DDC20)
+I (..\FWLib\inc\ETIMER.h)(0x5C7DDC1D)
+I (..\FWLib\inc\CMP.h)(0x5C7DDC1F)
+I (..\FWLib\inc\OPA.h)(0x5C7DDC18)
+I (..\FWLib\inc\DMA.h)(0x5C7DDC1D)
+I (..\FWLib\inc\Coproc.h)(0x5C7DDC1F)
+I (..\FWLib\inc\IAP.h)(0x5C7DDC1A)
+I (..\FWLib\inc\Datatype.h)(0x5C7DDC1D)
+F (..\FWLib\src\ERU.c)(0x60F14376)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\FWLib\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD12864 -I ..\HARDWARE\ST_delay-I.\RTE\_LCD12864-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_-o ..\obj\objects\eru.o --omf_browse ..\obj\objects\eru.crf --depend ..\obj\objects\eru.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (..\FWLib\inc\DevInit.h)(0x60F14BCB)
+I (..\FWLib\inc\UART.h)(0x5C7DDC18)
+I (..\FWLib\inc\ADC.h)(0x5C7DDC1F)
+I (..\FWLib\inc\GPIO.h)(0x610A34B4)
+I (..\FWLib\inc\PWM.h)(0x5C7DDC20)
+I (..\FWLib\inc\ETIMER.h)(0x5C7DDC1D)
+I (..\FWLib\inc\CMP.h)(0x5C7DDC1F)
+I (..\FWLib\inc\OPA.h)(0x5C7DDC18)
+I (..\FWLib\inc\DMA.h)(0x5C7DDC1D)
+I (..\FWLib\inc\Coproc.h)(0x5C7DDC1F)
+I (..\FWLib\inc\IAP.h)(0x5C7DDC1A)
+I (..\FWLib\inc\Datatype.h)(0x5C7DDC1D)
+F (..\FWLib\src\ETIMER.c)(0x5F153041)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\FWLib\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD12864 -I ..\HARDWARE\ST_delay-I.\RTE\_LCD12864-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_-o ..\obj\objects\etimer.o --omf_browse ..\obj\objects\etimer.crf --depend ..\obj\objects\etimer.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (..\FWLib\inc\DevInit.h)(0x60F14BCB)
+I (..\FWLib\inc\UART.h)(0x5C7DDC18)
+I (..\FWLib\inc\ADC.h)(0x5C7DDC1F)
+I (..\FWLib\inc\GPIO.h)(0x610A34B4)
+I (..\FWLib\inc\PWM.h)(0x5C7DDC20)
+I (..\FWLib\inc\ETIMER.h)(0x5C7DDC1D)
+I (..\FWLib\inc\CMP.h)(0x5C7DDC1F)
+I (..\FWLib\inc\OPA.h)(0x5C7DDC18)
+I (..\FWLib\inc\DMA.h)(0x5C7DDC1D)
+I (..\FWLib\inc\Coproc.h)(0x5C7DDC1F)
+I (..\FWLib\inc\IAP.h)(0x5C7DDC1A)
+I (..\FWLib\inc\Datatype.h)(0x5C7DDC1D)
+F (..\FWLib\src\GPIO.c)(0x60F53E4C)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\FWLib\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD12864 -I ..\HARDWARE\ST_delay-I.\RTE\_LCD12864-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_-o ..\obj\objects\gpio.o --omf_browse ..\obj\objects\gpio.crf --depend ..\obj\objects\gpio.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (..\FWLib\inc\DevInit.h)(0x60F14BCB)
+I (..\FWLib\inc\UART.h)(0x5C7DDC18)
+I (..\FWLib\inc\ADC.h)(0x5C7DDC1F)
+I (..\FWLib\inc\GPIO.h)(0x610A34B4)
+I (..\FWLib\inc\PWM.h)(0x5C7DDC20)
+I (..\FWLib\inc\ETIMER.h)(0x5C7DDC1D)
+I (..\FWLib\inc\CMP.h)(0x5C7DDC1F)
+I (..\FWLib\inc\OPA.h)(0x5C7DDC18)
+I (..\FWLib\inc\DMA.h)(0x5C7DDC1D)
+I (..\FWLib\inc\Coproc.h)(0x5C7DDC1F)
+I (..\FWLib\inc\IAP.h)(0x5C7DDC1A)
+I (..\FWLib\inc\Datatype.h)(0x5C7DDC1D)
+F (..\FWLib\src\IAP.c)(0x5C7F7BFE)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\FWLib\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD12864 -I ..\HARDWARE\ST_delay-I.\RTE\_LCD12864-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_-o ..\obj\objects\iap.o --omf_browse ..\obj\objects\iap.crf --depend ..\obj\objects\iap.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\FWLib\inc\IAP.h)(0x5C7DDC1A)
+F (..\FWLib\src\IRQ.c)(0x5C7DDAA0)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\FWLib\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD12864 -I ..\HARDWARE\ST_delay-I.\RTE\_LCD12864-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_-o ..\obj\objects\irq.o --omf_browse ..\obj\objects\irq.crf --depend ..\obj\objects\irq.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+F (..\FWLib\src\ISR.c)(0x60F685D8)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\FWLib\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD12864 -I ..\HARDWARE\ST_delay-I.\RTE\_LCD12864-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_-o ..\obj\objects\isr.o --omf_browse ..\obj\objects\isr.crf --depend ..\obj\objects\isr.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (..\FWLib\inc\DevInit.h)(0x60F14BCB)
+I (..\FWLib\inc\UART.h)(0x5C7DDC18)
+I (..\FWLib\inc\ADC.h)(0x5C7DDC1F)
+I (..\FWLib\inc\GPIO.h)(0x610A34B4)
+I (..\FWLib\inc\PWM.h)(0x5C7DDC20)
+I (..\FWLib\inc\ETIMER.h)(0x5C7DDC1D)
+I (..\FWLib\inc\CMP.h)(0x5C7DDC1F)
+I (..\FWLib\inc\OPA.h)(0x5C7DDC18)
+I (..\FWLib\inc\DMA.h)(0x5C7DDC1D)
+I (..\FWLib\inc\Coproc.h)(0x5C7DDC1F)
+I (..\FWLib\inc\IAP.h)(0x5C7DDC1A)
+I (..\FWLib\inc\Datatype.h)(0x5C7DDC1D)
+F (..\FWLib\src\OPA.c)(0x5C7DDA9E)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\FWLib\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD12864 -I ..\HARDWARE\ST_delay-I.\RTE\_LCD12864-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_-o ..\obj\objects\opa.o --omf_browse ..\obj\objects\opa.crf --depend ..\obj\objects\opa.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (..\FWLib\inc\DevInit.h)(0x60F14BCB)
+I (..\FWLib\inc\UART.h)(0x5C7DDC18)
+I (..\FWLib\inc\ADC.h)(0x5C7DDC1F)
+I (..\FWLib\inc\GPIO.h)(0x610A34B4)
+I (..\FWLib\inc\PWM.h)(0x5C7DDC20)
+I (..\FWLib\inc\ETIMER.h)(0x5C7DDC1D)
+I (..\FWLib\inc\CMP.h)(0x5C7DDC1F)
+I (..\FWLib\inc\OPA.h)(0x5C7DDC18)
+I (..\FWLib\inc\DMA.h)(0x5C7DDC1D)
+I (..\FWLib\inc\Coproc.h)(0x5C7DDC1F)
+I (..\FWLib\inc\IAP.h)(0x5C7DDC1A)
+I (..\FWLib\inc\Datatype.h)(0x5C7DDC1D)
+F (..\FWLib\src\PWM.c)(0x5C7DDA9D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\FWLib\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD12864 -I ..\HARDWARE\ST_delay-I.\RTE\_LCD12864-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_-o ..\obj\objects\pwm.o --omf_browse ..\obj\objects\pwm.crf --depend ..\obj\objects\pwm.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (..\FWLib\inc\DevInit.h)(0x60F14BCB)
+I (..\FWLib\inc\UART.h)(0x5C7DDC18)
+I (..\FWLib\inc\ADC.h)(0x5C7DDC1F)
+I (..\FWLib\inc\GPIO.h)(0x610A34B4)
+I (..\FWLib\inc\PWM.h)(0x5C7DDC20)
+I (..\FWLib\inc\ETIMER.h)(0x5C7DDC1D)
+I (..\FWLib\inc\CMP.h)(0x5C7DDC1F)
+I (..\FWLib\inc\OPA.h)(0x5C7DDC18)
+I (..\FWLib\inc\DMA.h)(0x5C7DDC1D)
+I (..\FWLib\inc\Coproc.h)(0x5C7DDC1F)
+I (..\FWLib\inc\IAP.h)(0x5C7DDC1A)
+I (..\FWLib\inc\Datatype.h)(0x5C7DDC1D)
+F (..\FWLib\src\Uart0.c)(0x5C7DDA9D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\FWLib\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD12864 -I ..\HARDWARE\ST_delay-I.\RTE\_LCD12864-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_-o ..\obj\objects\uart0.o --omf_browse ..\obj\objects\uart0.crf --depend ..\obj\objects\uart0.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (..\FWLib\inc\DevInit.h)(0x60F14BCB)
+I (..\FWLib\inc\UART.h)(0x5C7DDC18)
+I (..\FWLib\inc\ADC.h)(0x5C7DDC1F)
+I (..\FWLib\inc\GPIO.h)(0x610A34B4)
+I (..\FWLib\inc\PWM.h)(0x5C7DDC20)
+I (..\FWLib\inc\ETIMER.h)(0x5C7DDC1D)
+I (..\FWLib\inc\CMP.h)(0x5C7DDC1F)
+I (..\FWLib\inc\OPA.h)(0x5C7DDC18)
+I (..\FWLib\inc\DMA.h)(0x5C7DDC1D)
+I (..\FWLib\inc\Coproc.h)(0x5C7DDC1F)
+I (..\FWLib\inc\IAP.h)(0x5C7DDC1A)
+I (..\FWLib\inc\Datatype.h)(0x5C7DDC1D)
+F (..\FWLib\src\Uart1.c)(0x5C7DDA9E)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\FWLib\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD12864 -I ..\HARDWARE\ST_delay-I.\RTE\_LCD12864-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_-o ..\obj\objects\uart1.o --omf_browse ..\obj\objects\uart1.crf --depend ..\obj\objects\uart1.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+I (..\FWLib\inc\DevInit.h)(0x60F14BCB)
+I (..\FWLib\inc\UART.h)(0x5C7DDC18)
+I (..\FWLib\inc\ADC.h)(0x5C7DDC1F)
+I (..\FWLib\inc\GPIO.h)(0x610A34B4)
+I (..\FWLib\inc\PWM.h)(0x5C7DDC20)
+I (..\FWLib\inc\ETIMER.h)(0x5C7DDC1D)
+I (..\FWLib\inc\CMP.h)(0x5C7DDC1F)
+I (..\FWLib\inc\OPA.h)(0x5C7DDC18)
+I (..\FWLib\inc\DMA.h)(0x5C7DDC1D)
+I (..\FWLib\inc\Coproc.h)(0x5C7DDC1F)
+I (..\FWLib\inc\IAP.h)(0x5C7DDC1A)
+I (..\FWLib\inc\Datatype.h)(0x5C7DDC1D)
+F (..\FWLib\src\WDT.c)(0x5C7DDA9B)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\FWLib\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD12864 -I ..\HARDWARE\ST_delay-I.\RTE\_LCD12864-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_-o ..\obj\objects\wdt.o --omf_browse ..\obj\objects\wdt.crf --depend ..\obj\objects\wdt.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
+F (..\CORE\startup_SC32F5832.s)(0x5ABCA0C4)(--cpu Cortex-M0 -g --apcs=interwork -I.\RTE\_LCD12864-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1"--list ..\obj\listings\startup_sc32f5832.lst --xref -o ..\obj\objects\startup_sc32f5832.o --depend ..\obj\objects\startup_sc32f5832.d)
+F (..\CORE\system_SC32F5832.c)(0x58D0B852)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\FWLib\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD12864 -I ..\HARDWARE\ST_delay-I.\RTE\_LCD12864-IC:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include-D__UVISION_VERSION="529" -D_RTE_-o ..\obj\objects\system_sc32f5832.o --omf_browse ..\obj\objects\system_sc32f5832.crf --depend ..\obj\objects\system_sc32f5832.d)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\SC32F5832.h)(0x5ACDC75A)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_CM0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\SC32F5832_DFP\1.0.5\Device\Include\system_SC32F5832.h)(0x597ACD9A)
